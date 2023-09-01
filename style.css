@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    background-color:#2f2f2f;
+    color:white;
+    font-family: sans-serif;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+header h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #ffcb74;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background-color 0.5s;
+}
+
+    
+    
+    
+
+.navbar a:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffcb74;
+
+}
+
+.navbar a.active{
+    background-color: black;
+    color: #ffcb74;
+}
+.navbar li{
+    float: left;
+}
+
+
+main{
+    margin: 10px;
+    
+    padding: 50px 30px;
+}
+main p{
+    font-family: sans-serif;
+}
+.pagination{
+    text-align: center;
+    
+}
+.pagination a{
+
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+    margin: 0;
+    color: black;
+    font-weight: 700;
+}
+.pagination a.active{
+    background-color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #ffcb74;
+}
+.pagination a:hover{
+    background-color: black;
+    border-radius: 10px;
+    color: #ffcb74;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+
+}
+header{
+    position: sticky;
+    display: block;
+    text-align: center
+}
+footer{
+    position: sticky;
+    bottom: 0;
+    padding: o;
+}
+
+.pagination{
+background-color: #ffcb74;
+padding: 3px;
+}
+.arrow-btn{
+    position: fixed;
+    bottom: 65px;
+    right: 10px;
+}
+.arrow-btn a{
+    height: 40px;
+    width: 37px;
+    text-align: center;
+    background: black;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 9;
+}
+.arrow-btn a span{
+    color: #ffcb74;
+    line-height: 39px;
+    font-size: 25px;
+
+}
